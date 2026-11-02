@@ -38,7 +38,7 @@ jobs:
       - name: Extract NouraPOS source
         shell: bash
         run: |
-          ZIP_FILE="./NouraPOS_v1.5_source.zip"
+         ZIP_FILE="./NouraPOS_v1.6_source.zip"
           if [ -z "$ZIP_FILE" ]; then
             echo "NouraPOS ZIP file was not found."
             exit 1
